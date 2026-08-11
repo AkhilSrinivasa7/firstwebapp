@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+    <input type ="text" id = "name" placeholder="Enter name">
+    <p id = "res">output come here</p>
+    <script>
+        document.getElementById("name").addEventListener('keyup',function(){
+            let name = document.getElementById("name").value;
+            document.getElementById("res").innerHTML=name.toUpperCase(); 
+        })
+       
+    </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <input id="name" type="text" placeholder="Enter name">
+        <p id="res">output here</p>
+        <button id="btn1">convert uppercase</button>
+        <script>
+        document.getElementById("btn1").addEventListener('click',
+        function(){
+            let name=document.getElementById("name").value;
+            document.getElementById("res").innerHTML=name.toUpperCase();
+        })
+        </script>
+    </body>
+</html>
